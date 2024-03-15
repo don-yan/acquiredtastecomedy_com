@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "_type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "_generate": "nuxt generate  && node ./bin/sitemap",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.3.5",
+    "@contentful/rich-text-types": "^16.3.5",
+    "contentful": "^10.8.1",
+    "fs-sitemap-generator": "^1.0.1",
+    "json-stringify-safe": "^5.0.1",
+    "nuxt": "^3.10.3",
+    "pino": "^8.19.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
