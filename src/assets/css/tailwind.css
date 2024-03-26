@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+*/
+
+body{
+    @apply bg-red-500
+}
+
+/*@layer components {*/
+/*    .btn {*/
+/*        @apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm text-white;*/
+/*    }*/
+/*}*/
